@@ -1,0 +1,21 @@
+<head>
+  <style> body { margin: 0; overflow: hidden; } </style>
+</head>
+
+<body>
+  <div id="3d-graph"></div>
+  <div id="video-container" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); justify-content:center; align-items:center;">
+    <button id="close-video" style="position:absolute; top:10px; right:10px; background:red; color:white; border:none; padding:10px; cursor:pointer;">Close</button>
+    <video id="video-player" controls style="max-width:90%; max-height:90%;">
+      <source src="./background/backgroundfootage.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <button id="export-json" style="position:fixed; bottom:10px; right:10px; background:green; color:white; border:none; padding:10px; cursor:pointer;">Export JSON</button>
+  <button id="zoom-out" style="position:fixed; bottom:10px; left:10px; background:blue; color:white; border:none; padding:10px; cursor:pointer;">General view</button> 
+
+    <script src="./main.js" type="module">
+
+    </script>
+
+</body>
